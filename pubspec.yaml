@@ -1,0 +1,22 @@
+name: root
+description: Flutter Plugin to check Android device Root status and Run shell commands in android(only) ios not supported.
+version: 1.0.0
+homepage: https://github.com/gokul1630/root
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.gokul.root
+        pluginClass: RootPlugin

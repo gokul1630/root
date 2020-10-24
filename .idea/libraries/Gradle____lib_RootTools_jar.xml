@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./lib/RootTools.jar" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/lib/RootTools.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
