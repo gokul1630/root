@@ -17,8 +17,8 @@ public class RootPlugin implements MethodCallHandler {
 
   MethodChannel methodChannel;
   Context context;
-  List<String> text;
-  String cmd;
+  List<String> resultText;
+  String command;
   StringBuilder stringBuilder;
 
 
@@ -35,10 +35,10 @@ public class RootPlugin implements MethodCallHandler {
   @Override
   public void onMethodCall(MethodCall call, Result result) {
     if (call.method.equals("ExecuteCommand")) {
-       cmd=call.argument("cmd");
-       text=Shell.sh(cmd).exec().getOut();
+       command=call.argument("cmd");
+       resultText=Shell.sh(command).exec().getOut();
        stringBuilder=new StringBuilder();
-      for(String data : text){
+      for(String data : resultText){
         stringBuilder.append(data);
         stringBuilder.append("\n");
        }
