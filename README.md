@@ -11,7 +11,7 @@
 
 ### To use this plugin, add ```root ``` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
 ```
- root: ^2.0.0
+ root: ^2.0.1
 ```
 ### import it
 ```

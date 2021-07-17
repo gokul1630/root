@@ -6,3 +6,7 @@
 
 - Null Safety Support
 - updated Gradle dependencies
+
+## 2.0.1
+
+- format files with dart formatter
