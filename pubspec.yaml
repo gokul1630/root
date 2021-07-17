@@ -1,12 +1,11 @@
 name: root
-description: Check Android device Root status and Run shell commands in android(only),
-  use this plugin only for short period of processes.
-version: 1.0.0
+description: Flutter Plugin to check Android device Root status and Run shell commands in android(only), use this plugin only for short period of processes.
+version: 2.0.0
 homepage: https://github.com/gokul1630/root
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.20.0"
+  flutter: '>=1.20.0'
 
 dependencies:
   flutter:
