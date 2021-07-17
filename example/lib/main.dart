@@ -88,7 +88,7 @@ class _MyAppState extends State<MyApp> {
                   width: 5.0,
                 ),
                 Expanded(
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     child: Text("Run Command"),
                     onPressed: () {
                       _result = null; //To clear Terminal when click the button
