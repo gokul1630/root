@@ -5,9 +5,11 @@ class Root {
 
 // Function to Run shell commands
   static Future<String?> exec({String? cmd}) async {
-    String? result = await _channel.invokeMethod('ExecuteCommand', {"cmd": cmd});
+    String? result =
+        await _channel.invokeMethod('ExecuteCommand', {"cmd": cmd});
     return result;
   }
+
 // Function to check Root status
   static Future<bool?> isRooted() async {
     bool? result = await _channel.invokeMethod("isRooted");
