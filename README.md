@@ -1,5 +1,7 @@
 # root plugin
 
+[![CodeFactor](https://www.codefactor.io/repository/github/gokul1630/root/badge)](https://www.codefactor.io/repository/github/gokul1630/root)
+
 ### A Flutter Plugin to check Android device Root status and Run shell commands in android(only).
 
 #### This plugin is based on Topjohnwu [libsu](https://github.com/topjohnwu/libsu) and Stericson [Root Tools](https://github.com/Stericson/RootTools).
