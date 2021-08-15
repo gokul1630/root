@@ -1,39 +1,35 @@
 package com.gokul.root;
-
+import androidx.annotation.NonNull;
 import java.util.List;
 import android.app.Activity;
 import android.content.Context;
 import com.stericson.RootTools.RootTools;
 import com.topjohnwu.superuser.Shell;
 import com.topjohnwu.superuser.ShellUtils;
+import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /** RootPlugin */
-public class RootPlugin implements MethodCallHandler {
+public class RootPlugin implements FlutterPlugin, MethodCallHandler {
 
-  MethodChannel methodChannel;
-  Context context;
-  List<String> resultText;
-  String command;
-  StringBuilder stringBuilder;
+  private MethodChannel methodChannel;
+  private Context context;
+  private List<String> resultText;
+  private String command;
+  private StringBuilder stringBuilder;
 
 
-  public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(),"root");
-    channel.setMethodCallHandler(new RootPlugin(registrar.activity(),channel));
-  }
-  public RootPlugin(Activity activity, MethodChannel methodChannel){
-    this.context=activity;
-    this.methodChannel=methodChannel;
-    this.methodChannel.setMethodCallHandler(this);
+  @Override
+  public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
+    methodChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "root");
+    methodChannel.setMethodCallHandler(this);
   }
 
   @Override
-  public void onMethodCall(MethodCall call, Result result) {
+  public void onMethodCall(@NonNull MethodCall call,@NonNull Result result) {
     if (call.method.equals("ExecuteCommand")) {
        command=call.argument("cmd");
        resultText=Shell.sh(command).exec().getOut();
@@ -55,4 +51,8 @@ public class RootPlugin implements MethodCallHandler {
     return RootTools.isAccessGiven();
   }
 
+  @Override
+  public void onDetachedFromEngine(@NonNull FlutterPluginBinding binding) {
+    methodChannel.setMethodCallHandler(null);
+  }
 }
