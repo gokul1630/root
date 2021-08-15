@@ -1,8 +1,6 @@
 package com.gokul.root;
 import androidx.annotation.NonNull;
 import java.util.List;
-import android.app.Activity;
-import android.content.Context;
 import com.stericson.RootTools.RootTools;
 import com.topjohnwu.superuser.Shell;
 import com.topjohnwu.superuser.ShellUtils;
@@ -16,7 +14,6 @@ import io.flutter.plugin.common.MethodChannel.Result;
 public class RootPlugin implements FlutterPlugin, MethodCallHandler {
 
   private MethodChannel methodChannel;
-  private Context context;
   private List<String> resultText;
   private String command;
   private StringBuilder stringBuilder;
