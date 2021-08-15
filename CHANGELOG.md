@@ -10,3 +10,8 @@
 ## 2.0.1
 
 - format files with dart formatter
+
+## 2.0.2
+
+- libsu: update dependencies to latest version
+- Supporting the new Android plugins APIs
