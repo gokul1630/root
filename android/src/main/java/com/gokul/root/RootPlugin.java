@@ -23,6 +23,7 @@ public class RootPlugin implements FlutterPlugin, MethodCallHandler {
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
     methodChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "root");
     methodChannel.setMethodCallHandler(this);
+    Shell.setDefaultBuilder(Shell.Builder.create().setFlags(Shell.FLAG_MOUNT_MASTER));
   }
 
   @Override
