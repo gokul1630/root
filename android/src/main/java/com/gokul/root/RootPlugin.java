@@ -23,13 +23,14 @@ public class RootPlugin implements FlutterPlugin, MethodCallHandler {
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
     methodChannel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "root");
     methodChannel.setMethodCallHandler(this);
+    Shell.setDefaultBuilder(Shell.Builder.create().setFlags(Shell.FLAG_MOUNT_MASTER));
   }
 
   @Override
   public void onMethodCall(@NonNull MethodCall call,@NonNull Result result) {
     if (call.method.equals("ExecuteCommand")) {
        command=call.argument("cmd");
-       resultText=Shell.sh(command).exec().getOut();
+       resultText=Shell.cmd(command).exec().getOut();
        stringBuilder=new StringBuilder();
       for(String data : resultText){
         stringBuilder.append(data);

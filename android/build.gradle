@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.5.4'
     }
 }
 
@@ -29,7 +29,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
     }
     lintOptions {
         disable 'InvalidPackage'
@@ -41,7 +41,7 @@ android {
 }
 
 dependencies{
-    def libsuVersion = '3.1.2'
+    def libsuVersion = '5.0.2'
     implementation "com.github.topjohnwu.libsu:core:${libsuVersion}"
     implementation files('lib/RootTools.jar')
 }
