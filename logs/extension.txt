@@ -1,0 +1,284 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.46.1
+Flutter extension: 3.46.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.70.0
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    General
+
+Wed Aug 17 2022 [10:06:15 GMT-0500 (hora de Ecuador)] Log file started
+[10:06:15 a. m.] [General] [Info] Searching for SDKs...
+[10:06:15 a. m.] [General] [Info] Environment PATH:
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\Google\Chrome\Application
+[10:06:15 a. m.] [General] [Info]     C:\Ruby31-x64\bin
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\Common Files\Oracle\Java\javapath
+[10:06:15 a. m.] [General] [Info]     C:\WINDOWS\system32
+[10:06:15 a. m.] [General] [Info]     C:\WINDOWS
+[10:06:15 a. m.] [General] [Info]     C:\WINDOWS\System32\Wbem
+[10:06:15 a. m.] [General] [Info]     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[10:06:15 a. m.] [General] [Info]     C:\WINDOWS\System32\OpenSSH\
+[10:06:15 a. m.] [General] [Info]     C:\src\flutter\bin
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\Git\cmd
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\Java\jdk1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\Java\jre1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]     C:\Program Files (x86)\Calibre2\
+[10:06:15 a. m.] [General] [Info]     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\PuTTY\
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\php-8.0.8
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\WireGuard\
+[10:06:15 a. m.] [General] [Info]     C:\src\flutter\.pub-cache\bin
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\dotnet\
+[10:06:15 a. m.] [General] [Info]     %LOCALAPPDATA%\Pub\Cache\bin
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\Documents\Tul\tulcommit\mobile_shared_tulcript\bin
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\nodejs
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\AppData\Local\Programs\Python\Python39\Scripts\
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\AppData\Local\Programs\Python\Python39\
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\AppData\Local\Microsoft\WindowsApps
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\AppData\Local\GitHubDesktop\bin
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\Java\jdk1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\AppData\Roaming\npm
+[10:06:15 a. m.] [General] [Info]     C:\Python27
+[10:06:15 a. m.] [General] [Info]     C:\Python27\Scripts
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\.dotnet\tools
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\heroku\bin
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\AppData\Local\Programs\Microsoft VS Code\bin
+[10:06:15 a. m.] [General] [Info]     C:\src\flutter\.pub-cache\bin
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\AppData\Local\Microsoft\WindowsApps
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin
+[10:06:15 a. m.] [General] [Info]     C:\Users\jairo\Documents\Tul\tulcommit\mobile_shared_tulcript\bin
+[10:06:15 a. m.] [General] [Info]     C:\Program Files\nodejs
+[10:06:15 a. m.] [General] [Info] Took 63ms to search for projects (5 levels)
+[10:06:15 a. m.] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules)
+[10:06:15 a. m.] [General] [Info] Found Flutter project at C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[10:06:15 a. m.] [General] [Info] Found Flutter project at C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\example:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[10:06:15 a. m.] [General] [Info] Searching for flutter.bat
+[10:06:15 a. m.] [General] [Info]     Looking for flutter.bat in:
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\.flutter
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\.flutter\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\vendor\flutter
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\vendor\flutter\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\flutter-sdk
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\flutter-sdk\bin
+[10:06:15 a. m.] [General] [Info]         /google/flutter
+[10:06:15 a. m.] [General] [Info]         \google\flutter\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Google\Chrome\Application
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Google\Chrome\Application\bin
+[10:06:15 a. m.] [General] [Info]         C:\Ruby31-x64\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\system32
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\system32\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\Wbem
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\Wbem\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\OpenSSH\
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\OpenSSH\bin
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Git\cmd
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Git\cmd\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Java\jdk1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Java\jre1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files (x86)\Calibre2\
+[10:06:15 a. m.] [General] [Info]         C:\Program Files (x86)\Calibre2\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[10:06:15 a. m.] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\PuTTY\
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\PuTTY\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\php-8.0.8
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\php-8.0.8\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\WireGuard\
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\WireGuard\bin
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\.pub-cache\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\dotnet\
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\dotnet\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\%LOCALAPPDATA%\Pub\Cache\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\Tul\tulcommit\mobile_shared_tulcript\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\nodejs
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\nodejs\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Python\Python39\Scripts\
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Python\Python39\Scripts\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Python\Python39\
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Python\Python39\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Microsoft\WindowsApps
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Microsoft\WindowsApps\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\GitHubDesktop\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Java\jdk1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Roaming\npm
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Roaming\npm\bin
+[10:06:15 a. m.] [General] [Info]         C:\Python27
+[10:06:15 a. m.] [General] [Info]         C:\Python27\bin
+[10:06:15 a. m.] [General] [Info]         C:\Python27\Scripts
+[10:06:15 a. m.] [General] [Info]         C:\Python27\Scripts\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\.dotnet\tools
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\.dotnet\tools\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\heroku\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Microsoft VS Code\bin
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\.pub-cache\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Microsoft\WindowsApps
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Microsoft\WindowsApps\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\Tul\tulcommit\mobile_shared_tulcript\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\nodejs
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\nodejs\bin
+[10:06:15 a. m.] [General] [Info]     Found at:
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin
+[10:06:15 a. m.] [General] [Info]     Candidate paths to be post-filtered:
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter
+[10:06:15 a. m.] [General] [Info]     Found at C:\src\flutter
+[10:06:15 a. m.] [General] [Info]     Returning SDK path C:\src\flutter for flutter.bat
+[10:06:15 a. m.] [General] [Info] Searching for dart.exe
+[10:06:15 a. m.] [General] [Info]     Looking for dart.exe in:
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Google\Chrome\Application
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Google\Chrome\Application\bin
+[10:06:15 a. m.] [General] [Info]         C:\Ruby31-x64\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\system32
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\system32\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\Wbem
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\Wbem\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\OpenSSH\
+[10:06:15 a. m.] [General] [Info]         C:\WINDOWS\System32\OpenSSH\bin
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Git\cmd
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Git\cmd\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Java\jdk1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Java\jre1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files (x86)\Calibre2\
+[10:06:15 a. m.] [General] [Info]         C:\Program Files (x86)\Calibre2\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[10:06:15 a. m.] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\PuTTY\
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\PuTTY\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\php-8.0.8
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\php-8.0.8\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\WireGuard\
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\WireGuard\bin
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\.pub-cache\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\dotnet\
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\dotnet\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\%LOCALAPPDATA%\Pub\Cache\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\Tul\tulcommit\mobile_shared_tulcript\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\nodejs
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\nodejs\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Python\Python39\Scripts\
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Python\Python39\Scripts\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Python\Python39\
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Python\Python39\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Microsoft\WindowsApps
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Microsoft\WindowsApps\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\GitHubDesktop\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\Java\jdk1.8.0_271\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Roaming\npm
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Roaming\npm\bin
+[10:06:15 a. m.] [General] [Info]         C:\Python27
+[10:06:15 a. m.] [General] [Info]         C:\Python27\bin
+[10:06:15 a. m.] [General] [Info]         C:\Python27\Scripts
+[10:06:15 a. m.] [General] [Info]         C:\Python27\Scripts\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\.dotnet\tools
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\.dotnet\tools\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\heroku\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Programs\Microsoft VS Code\bin
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\.pub-cache\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Microsoft\WindowsApps
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\AppData\Local\Microsoft\WindowsApps\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin
+[10:06:15 a. m.] [General] [Info]         C:\Users\jairo\Documents\Tul\tulcommit\mobile_shared_tulcript\bin
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\nodejs
+[10:06:15 a. m.] [General] [Info]         C:\Program Files\nodejs\bin
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk\bin
+[10:06:15 a. m.] [General] [Info]     Found at:
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk\bin
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk\bin
+[10:06:15 a. m.] [General] [Info]     Candidate paths to be post-filtered:
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
+[10:06:15 a. m.] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
+[10:06:15 a. m.] [General] [Info]     Found at C:\src\flutter\bin\cache\dart-sdk
+[10:06:15 a. m.] [General] [Info]     Returning SDK path C:\src\flutter\bin\cache\dart-sdk for dart.exe
+[10:06:15 a. m.] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.46.1
+Flutter extension: 3.46.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.70.0
+Platform: win
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\src\flutter\bin\cache\dart-sdk
+    Ver: 2.16.2
+Flutter SDK:
+    Loc: C:\src\flutter
+    Ver: 2.10.5
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[10:06:15 a. m.] [General] [Info] Returning cached results for project search
+[10:06:15 a. m.] [General] [Info] Activating Flutter extension for Flutter project...
+[10:06:15 a. m.] [General] [Info] Extension:Startup timing: 155ms
+[10:06:15 a. m.] [General] [Info] Found 2 folders requiring "pub get":
+    C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root
+    C:\Users\jairo\Documents\PCToDriveBackup\GitHub\root\example
+[10:06:15 a. m.] [General] [Info] Caching Pub package names from pub.dev...
+[10:06:18 a. m.] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.46.1
+Flutter extension: 3.46.0 (activated)
+
+App: Visual Studio Code
+Version: 1.70.0
+Platform: win
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: C:\src\flutter\bin\cache\dart-sdk
+    Ver: 2.16.2
+Flutter SDK:
+    Loc: C:\src\flutter
+    Ver: 2.10.5
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[10:06:18 a. m.] [General] [Info] Analyzer:Startup timing: 2223ms
+[10:06:27 a. m.] [General] [Info] Analyzer:FirstAnalysis timing: 6ms
+[10:06:35 a. m.] [General] [Info] Returning cached results for project search
+[10:06:35 a. m.] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[10:06:35 a. m.] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[10:06:35 a. m.] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[10:06:35 a. m.] [General] [Info] Checking 2 projects for supported platforms
+[10:06:36 a. m.] [General] [Info] Supported platforms for the workspace are android
+[10:07:51 a. m.] [General] [Info] Returning cached results for project search

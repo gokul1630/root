@@ -1,0 +1,35 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.46.1
+Flutter extension: 3.46.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.70.0
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Wed Aug 17 2022 [10:06:15 GMT-0500 (hora de Ecuador)] Log file started
+[10:06:15 a. m.] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
+[10:06:15 a. m.] [FlutterDaemon] [Info] ..  in C:\src\flutter
+[10:06:15 a. m.] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[10:06:15 a. m.] [FlutterDaemon] [Info]     PID: 43928
+[10:06:15 a. m.] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[10:06:27 a. m.] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":17084}}]
+[10:06:27 a. m.] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[10:06:27 a. m.] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"╔════════════════════════════════════════════════════════════════════════════╗\n║ A new version of Flutter is available!                                     ║\n║                                                                            ║\n║ To update to the latest version, run \"flutter upgrade\".                    ║\n╚════════════════════════════════════════════════════════════════════════════╝\n"}}]
+[10:06:27 a. m.] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[10:06:27 a. m.] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Nexus_5_API_30","name":"Nexus 5 API 30","category":"mobile","platformType":"android"},{"id":"Nexus_7_API_30","name":"Nexus 7 API 30","category":"mobile","platformType":"android"},{"id":"Pixel_4_API_30","name":"Pixel 4 API 30","category":"mobile","platformType":"android"},{"id":"Pixel_4_XL_API_30","name":"Pixel 4 XL API 30","category":"mobile","platformType":"android"}]}]
+[10:06:27 a. m.] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[10:06:35 a. m.] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null}}]
+[10:06:35 a. m.] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[10:06:35 a. m.] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null}}]
+[10:06:35 a. m.] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"192.168.92.102:5555","name":"Google Nexus 5","platform":"android-x86","emulator":false,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":null}}]
+[10:06:35 a. m.] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\jairo\\Documents\\PCToDriveBackup\\GitHub\\root"}}]
+[10:06:35 a. m.] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Users\\jairo\\Documents\\PCToDriveBackup\\GitHub\\root\\example"}}]
+[10:06:36 a. m.] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["android"]}}]
+[10:06:36 a. m.] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["android"]}}]
