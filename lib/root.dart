@@ -15,4 +15,10 @@ class Root {
     bool? result = await _channel.invokeMethod("isRooted");
     return result;
   }
+  
+// Function to check if root is available
+  static Future<bool?> isRootAvailable() async {
+    bool? result = await _channel.invokeMethod("isRootAvailable");
+    return result;
+  }
 }

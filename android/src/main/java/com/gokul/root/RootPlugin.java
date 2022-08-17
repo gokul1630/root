@@ -39,6 +39,8 @@ public class RootPlugin implements FlutterPlugin, MethodCallHandler {
       result.success(String.format("%s",stringBuilder));
     } else if(call.method.equals("isRooted")){
       result.success(isRooted());
+    } else if(call.method.equals("isRootAvailable")){
+      result.success(isRootAvailable());
     } else{
       result.notImplemented();
     }
@@ -47,6 +49,9 @@ public class RootPlugin implements FlutterPlugin, MethodCallHandler {
   }
   private boolean isRooted() {
     return RootTools.isAccessGiven();
+  }
+  private boolean isRootAvailable() {
+    return RootTools.isRootAvailable();
   }
 
   @Override

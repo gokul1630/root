@@ -13,12 +13,14 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _result = " ";
   bool _status = false;
+  bool _statusAvailability = false;
   TextEditingController controller = TextEditingController();
 
   @override
   void initState() {
     super.initState();
     checkRoot();
+    checkRootAvailability();
   }
 
   //Check Root status
@@ -26,6 +28,14 @@ class _MyAppState extends State<MyApp> {
     bool result = await Root.isRooted();
     setState(() {
       _status = result;
+    });
+  }
+
+  //Check Root availability
+  Future<void> checkRootAvailability() async {
+    bool result = await Root.isRootAvailable();
+    setState(() {
+      _statusAvailability = result;
     });
   }
 
@@ -52,6 +62,11 @@ class _MyAppState extends State<MyApp> {
               height: 20.0,
             ),
             Text('Device Root Status: $_status',
+                style: TextStyle(fontSize: 20.0)),
+            SizedBox(
+              height: 20.0,
+            ),
+            Text('Device Root Availability: $_statusAvailability',
                 style: TextStyle(fontSize: 20.0)),
             SizedBox(
               height: 20.0,
