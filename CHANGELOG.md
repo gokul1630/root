@@ -19,3 +19,7 @@
 ## 2.0.3
 
 - Added New method to Detect Su without permission
+
+## 2.0.4
+
+- Updated README

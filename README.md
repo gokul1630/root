@@ -11,9 +11,9 @@
 
 ## Usage
 
-### To use this plugin, add ```root ``` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
+### To use this plugin, add ```root``` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
 ```
- root: ^2.0.3
+ root: ^2.0.4
 ```
 ### import it
 ```
@@ -26,6 +26,20 @@ bool _status = false;
 
  Future<void> checkRoot() async {
     bool result = await Root.isRooted();
+    setState(() {
+      _status = result;
+    });
+  }
+  
+ later you can use _status in your code to let app know the root status. 
+ 
+```
+### Declare a async method to check Su on System
+```
+bool _status = false;
+
+ Future<void> checkRoot() async {
+    bool result = await Root.isRootAvailable();
     setState(() {
       _status = result;
     });
