@@ -15,3 +15,7 @@
 
 - libsu: update dependencies to latest version
 - Supporting the new Android plugins APIs
+
+## 2.0.3
+
+- Added New method to Detect Su without permission
